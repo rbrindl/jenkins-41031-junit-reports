@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="org.nowhere.SomeTest" tests="0" skipped="0" failures="1" errors="0" timestamp="2017-01-12T14:47:16" hostname="host1-windows" time="20.0">
   <properties/>
-  <testcase name="myTest" classname="org.nowhere.SomeTest" time="20.0"/>
+  <testcase name="myTest" classname="org.nowhere.SomeTest" time="20.0">
+		<failure message="A Failure" type="TheException">The Stacktrace</failure>
+	</testcase>
   <system-out>
 	Test run on windows
   </system-out>
