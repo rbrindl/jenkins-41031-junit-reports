@@ -1,0 +1,57 @@
+{
+  "_class" : "hudson.tasks.junit.TestResult",
+  "testActions" : [
+    
+  ],
+  "duration" : 30.0,
+  "empty" : false,
+  "failCount" : 1,
+  "passCount" : 1,
+  "skipCount" : 0,
+  "suites" : [
+    {
+      "cases" : [
+        {
+          "testActions" : [
+            
+          ],
+          "age" : 1,
+          "className" : "this.is.TheTest",
+          "duration" : 20.0,
+          "errorDetails" : "A Failure",
+          "errorStackTrace" : "The Stacktrace",
+          "failedSince" : 1,
+          "name" : "myTest",
+          "skipped" : false,
+          "skippedMessage" : null,
+          "status" : "FAILED",
+          "stderr" : "\n\tError happened on windows\n  ",
+          "stdout" : "\n\tTest run on windows\n  "
+        },
+        {
+          "testActions" : [
+            
+          ],
+          "age" : 0,
+          "className" : "this.is.TheTest",
+          "duration" : 10.0,
+          "errorDetails" : null,
+          "errorStackTrace" : null,
+          "failedSince" : 0,
+          "name" : "myTest",
+          "skipped" : false,
+          "skippedMessage" : null,
+          "status" : "PASSED",
+          "stderr" : "\n\tError happened on windows\n  ",
+          "stdout" : "\n\tTest run on windows\n  "
+        }
+      ],
+      "duration" : 20.0,
+      "id" : null,
+      "name" : "this.is.TheTest",
+      "stderr" : "\n\tError happened on windows\n  ",
+      "stdout" : "\n\tTest run on windows\n  ",
+      "timestamp" : "2017-01-12T14:48:16"
+    }
+  ]
+}
